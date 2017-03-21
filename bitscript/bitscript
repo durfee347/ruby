@@ -1,0 +1,38 @@
+
+require "selenium-webdriver"
+
+# open a new browser window and go to the gmail account creation page
+browser = Selenium::WebDriver.for :chrome
+browser.get "https://accounts.google.com/SignUp?service=mail&continue=https%3A%2F%2Fmail.google.com%2Fmail%2F&ltmpl=default"
+puts "opened create account page"
+
+
+
+# establish possible name and info database
+first_name = "clayton"
+last_name = "bigsby"
+passw = "pr123456"
+brMonth = "March"
+brDay = 2
+brYear = 1987
+phNum = "000-000-0000"
+recEmail = "oldemail@gmail.com"
+
+# enter personal info from database
+browser.find_element(name: "FirstName").send_keys first_name
+browser.find_element(name: "LastName").send_keys last_name
+browser.find_element(name: "GmailAddress").send_keys first_name + last_name
+browser.find_element(name: "Passwd").send_keys passw
+browser.find_element(name: "PasswdAgain").send_keys passw
+# browser.find_element(name: "BirthMonth").send_keys brMonth
+browser.find_element(name: "BirthDay").send_keys brDay
+browser.find_element(name: "BirthYear").send_keys brYear
+browser.find_element(name: "RecoveryPhoneNumber").send_keys phNum
+browser.find_element(name: "RecoveryEmailAddress").send_keys recEmail
+# browser.find_element(name: "submitbutton").click
+
+
+
+
+# wait a long time to keep browser open long enough to check
+sleep(9000)

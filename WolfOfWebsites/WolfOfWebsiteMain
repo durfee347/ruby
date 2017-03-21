@@ -1,0 +1,37 @@
+
+require 'rubygems'
+require 'yahoo_stock'
+require 'csv'
+require "selenium-webdriver"
+# browser = Selenium::WebDriver.for :chrome
+
+
+# make array of last price and new price
+ticker_prices = Array.new
+
+# read CSV of stock tickers to read
+ticker_labels = Array.new
+
+# open the CSV file with ticker names
+f = File.open("Tickers.csv", "r")
+
+# loop through each record in CSV and add to ticker_labels array
+f.each_line {|line|
+  ticker_labels = line.split(',')
+}
+
+
+# for every ticker, it
+ticker_labels.each { |x|
+  quote = YahooStock::Quote.net(:stock_symbols => x)
+  puts quote.valid_parameters
+ # ticker_prices[x][1] = quote.current_parameters
+
+
+
+
+
+}
+
+#sleep(30)
+
