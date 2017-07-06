@@ -1,37 +1,41 @@
 
+# check priority list of stock ticker prices
+# *algorithm*
+# purchase stock, record purchase in csv
+# use csv data to set and run sell/stop losses
+# check price --> buy/sell
+# remove stock ticker from list
+# check list again
+# choose new ticker
+# repeat
+
+
+#---------------------------------------------------------------------------------------------------------------------
+
 require 'rubygems'
 require 'yahoo_stock'
+require 'stock_quote'
 require 'csv'
-require "selenium-webdriver"
-# browser = Selenium::WebDriver.for :chrome
+require 'selenium-webdriver'
+require 'C:\Users\durfe\RubymineProjects\ruby\WolfOfWebsites\spec\tools'
+require 'market_beat'
+require_relative('spec/tools')
+require_relative('stock')
 
 
-# make array of last price and new price
-ticker_prices = Array.new
-
-# read CSV of stock tickers to read
-ticker_labels = Array.new
-
-# open the CSV file with ticker names
-f = File.open("Tickers.csv", "r")
-
-# loop through each record in CSV and add to ticker_labels array
-f.each_line {|line|
-  ticker_labels = line.split(',')
-}
+monetary_risk = 1000
 
 
-# for every ticker, it
-ticker_labels.each { |x|
-  quote = YahooStock::Quote.net(:stock_symbols => x)
-  puts quote.valid_parameters
- # ticker_prices[x][1] = quote.current_parameters
+ignition = Tools. new
+
+#ignition.initialize_browser()
+
+#ignition.ticker_csv()
+
+ticker_list = CSV.read('Tickers.csv')
+
+stock = StockQuote::Stock.quote("AAPL")
+puts stock.ask
 
 
-
-
-
-}
-
-#sleep(30)
 
