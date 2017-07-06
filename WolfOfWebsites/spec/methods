@@ -1,8 +1,5 @@
-class Stock
-
 
   def SELL(stock_ticker)
-    num_shares =
     browser.find_element(name: 'symbolTextbox').send_keys stock_ticker
     browser.find_element(name: 'quantityTextbox').send_keys num_shares
     #Select the dropdown button
@@ -13,14 +10,14 @@ class Stock
     puts 'sold '
     sleep(20)
     #browser.find_element(name: 'submitOrder').click
-
+    ticker_labels[i] = stock_ticker
+    ticker_prices[i] = current_price
     return
   end
 
 
 
-  def BUY(stock_ticker, monetary_risk, current_price)
-
+  def BUY(stock_ticker)
     num_shares = monetary_risk / current_price
     browser.find_element(name: 'symbolTextbox').send_keys stock_ticker
     browser.find_element(name: 'quantityTextbox').send_keys num_shares
@@ -34,8 +31,7 @@ class Stock
     #browser.find_element(name: 'submitOrder').click
 
 
-
+    ticker_labels[i] = stock_ticker
+    ticker_prices[i] = current_price
     return
   end
-
-end
