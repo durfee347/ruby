@@ -1,7 +1,7 @@
 class Stock
 
 
-  def SELL(stock_ticker)
+  def sell(stock_ticker)
     num_shares =
     browser.find_element(name: 'symbolTextbox').send_keys stock_ticker
     browser.find_element(name: 'quantityTextbox').send_keys num_shares
@@ -14,12 +14,12 @@ class Stock
     sleep(20)
     #browser.find_element(name: 'submitOrder').click
 
-    return
+
   end
 
 
 
-  def BUY(stock_ticker, monetary_risk, current_price)
+  def buy(stock_ticker, monetary_risk, current_price)
 
     num_shares = monetary_risk / current_price
     browser.find_element(name: 'symbolTextbox').send_keys stock_ticker
@@ -35,7 +35,16 @@ class Stock
 
 
 
-    return
+
   end
 
+  def check_price(stock_ticker)
+    stock = StockQuote::Stock.quote(stock_ticker)
+    stock.ask
+  end
+
+  def check_volume(stock_ticker)
+    stock = StockQuote::Stock.quote(stock_ticker, nil, nil, 'average_daily_volume')
+    stock.ask
+  end
 end

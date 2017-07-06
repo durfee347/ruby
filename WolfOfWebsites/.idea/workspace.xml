@@ -1,7 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a08fe2b6-b068-4028-945c-351dba03ca81" name="Default" comment="" />
+    <list default="true" id="a08fe2b6-b068-4028-945c-351dba03ca81" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/runConfigurations/WolfOfWebsiteMain.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/runConfigurations/methods.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/runConfigurations/tools.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/algorithm.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/performance_history.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/prospects_pool.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tools.rb" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ruby_stock.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/spec/tools.rb" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/WolfOfWebsiteMain" afterPath="$PROJECT_DIR$/WolfOfWebsiteMain.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/WolfOfWebsites.iml" afterPath="$PROJECT_DIR$/.idea/WolfOfWebsites.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/stock.rb" afterPath="$PROJECT_DIR$/stock.rb" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -10,62 +24,36 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/WolfOfWebsites@tools.coverage" NAME="tools Coverage Results" MODIFIED="1499366310252" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/spec" MODULE_NAME="WolfOfWebsites" />
-    <SUITE FILE_PATH="coverage/WolfOfWebsites@WolfOfWebsiteMain.coverage" NAME="WolfOfWebsiteMain Coverage Results" MODIFIED="1499368909281" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="WolfOfWebsites" />
-    <SUITE FILE_PATH="coverage/WolfOfWebsites@methods.coverage" NAME="methods Coverage Results" MODIFIED="1499327366874" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/spec" MODULE_NAME="WolfOfWebsites" />
     <SUITE FILE_PATH="coverage/WolfOfWebsites@IRB_console__WolfOfWebsites.coverage" NAME="IRB console: WolfOfWebsites Coverage Results" MODIFIED="1499332134207" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="WolfOfWebsites" />
+    <SUITE FILE_PATH="coverage/WolfOfWebsites@methods.coverage" NAME="methods Coverage Results" MODIFIED="1499371533392" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/spec" MODULE_NAME="WolfOfWebsites" />
+    <SUITE FILE_PATH="coverage/WolfOfWebsites@algorithm.coverage" NAME="algorithm Coverage Results" MODIFIED="1499375106412" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="WolfOfWebsites" />
+    <SUITE FILE_PATH="coverage/WolfOfWebsites@tools.coverage" NAME="tools Coverage Results" MODIFIED="1499376770505" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/spec" MODULE_NAME="WolfOfWebsites" />
+    <SUITE FILE_PATH="coverage/WolfOfWebsites@stock.coverage" NAME="stock Coverage Results" MODIFIED="1499381199112" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="WolfOfWebsites" />
+    <SUITE FILE_PATH="coverage/WolfOfWebsites@WolfOfWebsiteMain.coverage" NAME="WolfOfWebsiteMain Coverage Results" MODIFIED="1499377243911" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="WolfOfWebsites" />
+    <SUITE FILE_PATH="coverage/WolfOfWebsites@tools__1_.coverage" NAME="tools (1) Coverage Results" MODIFIED="1499377166450" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="WolfOfWebsites" />
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
   </component>
+  <component name="DatabaseView">
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_TABLE_DETAILS" value="true" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+  </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="WolfOfWebsites" />
+  </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="600">
-      <file leaf-file-name="tools.rb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spec/tools.rb">
+    <leaf>
+      <file leaf-file-name="performance_history.csv" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/performance_history.csv">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="462">
-              <caret line="14" column="10" lean-forward="false" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Tickers.csv" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Tickers.csv">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="33">
-              <caret line="1" column="4" lean-forward="false" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="4" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="WolfOfWebsiteMain" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/WolfOfWebsiteMain">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1281">
-              <caret line="40" column="0" lean-forward="true" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="quote.rb" pinned="false" current-in-tab="false">
-        <entry file="file://C:/Ruby23/lib/ruby/gems/2.3.0/gems/nas-yahoo_stock-1.0.8/lib/yahoo_stock/quote.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="348">
-              <caret line="68" column="0" lean-forward="false" selection-start-line="68" selection-start-column="0" selection-end-line="68" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="stock.rb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/stock.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="132">
-              <caret line="4" column="16" lean-forward="false" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
+            <state relative-caret-position="34">
+              <caret line="2" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -85,16 +73,25 @@
       <find>driver</find>
     </findStrings>
   </component>
+  <component name="Git.Settings">
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/trade.rb" />
         <option value="$PROJECT_DIR$/spec/methods" />
         <option value="$PROJECT_DIR$/Tickers.csv" />
-        <option value="$PROJECT_DIR$/stock.rb" />
-        <option value="$PROJECT_DIR$/spec/tools.rb" />
         <option value="$PROJECT_DIR$/ruby_stock.rb" />
         <option value="$PROJECT_DIR$/WolfOfWebsiteMain" />
+        <option value="$PROJECT_DIR$/spec/tools.rb" />
+        <option value="$PROJECT_DIR$/tools.rb" />
+        <option value="$PROJECT_DIR$/prospects_pool.csv" />
+        <option value="$PROJECT_DIR$/algorithm.rb" />
+        <option value="$PROJECT_DIR$/stock.rb" />
+        <option value="$PROJECT_DIR$/WolfOfWebsiteMain.rb" />
+        <option value="$PROJECT_DIR$/performance_history.csv" />
       </list>
     </option>
   </component>
@@ -105,12 +102,14 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1489" />
-    <option name="width" value="1522" />
-    <option name="height" value="1931" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
-    <navigator proportions="" version="1">
+    <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
       <showMembers />
       <showModules />
@@ -123,64 +122,67 @@
       <manualOrder />
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes />
+    <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WolfOfWebsites" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WolfOfWebsites" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WolfOfWebsites" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WolfOfWebsites" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WolfOfWebsites" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WolfOfWebsites" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="features" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+    </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="js.eslint.eslintPackage" value="" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Documents" />
+    <property name="last_opened_file_path" value="C:/Ruby24-x64/bin/ruby.exe" />
+    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.ruby.settings.RubyActiveModuleSdkConfigurable" />
+    <property name="full.screen.before.presentation.mode" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Durfee\Documents\GitHub\ruby\WolfOfWebsites" />
       <recent name="C:\Users\durfe\RubymineProjects\ruby\WolfOfWebsites\spec" />
     </key>
   </component>
-  <component name="RunManager" selected="Ruby.WolfOfWebsiteMain">
-    <configuration default="false" name="WolfOfWebsiteMain" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
-      <module name="WolfOfWebsites" />
-      <RUBY_RUN_CONFIG NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
-      <RUBY_RUN_CONFIG NAME="WORK DIR" VALUE="$MODULE_DIR$" />
-      <RUBY_RUN_CONFIG NAME="SHOULD_USE_SDK" VALUE="false" />
-      <RUBY_RUN_CONFIG NAME="ALTERN_SDK_NAME" VALUE="" />
-      <RUBY_RUN_CONFIG NAME="myPassParentEnvs" VALUE="true" />
-      <envs />
-      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
-      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
-      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov" />
-      <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$MODULE_DIR$/WolfOfWebsiteMain" />
-      <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
-      <method />
-    </configuration>
-    <configuration default="false" name="methods" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
-      <module name="WolfOfWebsites" />
-      <RUBY_RUN_CONFIG NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
-      <RUBY_RUN_CONFIG NAME="WORK DIR" VALUE="$MODULE_DIR$/spec" />
-      <RUBY_RUN_CONFIG NAME="SHOULD_USE_SDK" VALUE="false" />
-      <RUBY_RUN_CONFIG NAME="ALTERN_SDK_NAME" VALUE="" />
-      <RUBY_RUN_CONFIG NAME="myPassParentEnvs" VALUE="true" />
-      <envs />
-      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
-      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
-      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov" />
-      <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$MODULE_DIR$/spec/methods" />
-      <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
-      <method />
-    </configuration>
-    <configuration default="false" name="tools" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
-      <module name="WolfOfWebsites" />
-      <RUBY_RUN_CONFIG NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
-      <RUBY_RUN_CONFIG NAME="WORK DIR" VALUE="$MODULE_DIR$/spec" />
-      <RUBY_RUN_CONFIG NAME="SHOULD_USE_SDK" VALUE="false" />
-      <RUBY_RUN_CONFIG NAME="ALTERN_SDK_NAME" VALUE="" />
-      <RUBY_RUN_CONFIG NAME="myPassParentEnvs" VALUE="true" />
-      <envs />
-      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
-      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
-      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov" />
-      <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$MODULE_DIR$/spec/tools.rb" />
-      <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Ruby.stock">
     <configuration default="false" name="IRB console: WolfOfWebsites" type="IrbRunConfigurationType" factoryName="IRB console" temporary="true">
       <module name="WolfOfWebsites" />
       <IRB_RUN_CONFIG NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
@@ -195,6 +197,51 @@
       <IRB_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$APPLICATION_HOME_DIR$/rb/testing/runner/irb.rb" />
       <IRB_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="--prompt simple" />
       <IRB_RUN_CONFIG NAME="IS_RAILS_CONSOLE" VALUE="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="stock" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
+      <module name="WolfOfWebsites" />
+      <RUBY_RUN_CONFIG NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
+      <RUBY_RUN_CONFIG NAME="WORK DIR" VALUE="$MODULE_DIR$" />
+      <RUBY_RUN_CONFIG NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RUBY_RUN_CONFIG NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RUBY_RUN_CONFIG NAME="myPassParentEnvs" VALUE="true" />
+      <envs />
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov" />
+      <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$MODULE_DIR$/stock.rb" />
+      <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
+      <method />
+    </configuration>
+    <configuration default="false" name="algorithm" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
+      <module name="WolfOfWebsites" />
+      <RUBY_RUN_CONFIG NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
+      <RUBY_RUN_CONFIG NAME="WORK DIR" VALUE="$MODULE_DIR$" />
+      <RUBY_RUN_CONFIG NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RUBY_RUN_CONFIG NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RUBY_RUN_CONFIG NAME="myPassParentEnvs" VALUE="true" />
+      <envs />
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov" />
+      <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$MODULE_DIR$/algorithm.rb" />
+      <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
+      <method />
+    </configuration>
+    <configuration default="false" name="tools (1)" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
+      <module name="WolfOfWebsites" />
+      <RUBY_RUN_CONFIG NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
+      <RUBY_RUN_CONFIG NAME="WORK DIR" VALUE="$MODULE_DIR$" />
+      <RUBY_RUN_CONFIG NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RUBY_RUN_CONFIG NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RUBY_RUN_CONFIG NAME="myPassParentEnvs" VALUE="true" />
+      <envs />
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov" />
+      <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$MODULE_DIR$/tools.rb" />
+      <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
       <method />
     </configuration>
     <configuration default="true" type="CucumberRunConfigurationType" factoryName="Cucumber">
@@ -333,18 +380,21 @@
       <envs />
       <method />
     </configuration>
-    <list size="4">
+    <list size="7">
       <item index="0" class="java.lang.String" itemvalue="Ruby.WolfOfWebsiteMain" />
       <item index="1" class="java.lang.String" itemvalue="Ruby.methods" />
       <item index="2" class="java.lang.String" itemvalue="Ruby.tools" />
       <item index="3" class="java.lang.String" itemvalue="IRB console.IRB console: WolfOfWebsites" />
+      <item index="4" class="java.lang.String" itemvalue="Ruby.stock" />
+      <item index="5" class="java.lang.String" itemvalue="Ruby.algorithm" />
+      <item index="6" class="java.lang.String" itemvalue="Ruby.tools (1)" />
     </list>
     <recent_temporary>
       <list size="4">
-        <item index="0" class="java.lang.String" itemvalue="Ruby.WolfOfWebsiteMain" />
-        <item index="1" class="java.lang.String" itemvalue="IRB console.IRB console: WolfOfWebsites" />
-        <item index="2" class="java.lang.String" itemvalue="Ruby.tools" />
-        <item index="3" class="java.lang.String" itemvalue="Ruby.methods" />
+        <item index="0" class="java.lang.String" itemvalue="Ruby.stock" />
+        <item index="1" class="java.lang.String" itemvalue="Ruby.tools (1)" />
+        <item index="2" class="java.lang.String" itemvalue="Ruby.algorithm" />
+        <item index="3" class="java.lang.String" itemvalue="IRB console.IRB console: WolfOfWebsites" />
       </list>
     </recent_temporary>
   </component>
@@ -372,46 +422,56 @@
       <workItem from="1491411411156" duration="5560000" />
       <workItem from="1499323563776" duration="10411000" />
       <workItem from="1499366862276" duration="2138000" />
+      <workItem from="1499369363633" duration="11882000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="36354000" />
+    <option name="totallyTimeSpent" value="48236000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1489" y="0" width="1522" height="1931" extended-state="0" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.12566666" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12552084" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3268047" sideWeight="0.067" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3696581" sideWeight="0.0796875" order="10" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.34907353" sideWeight="0.933" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.36880165" sideWeight="0.9203125" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3295711" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3295711" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3295711" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3295711" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3268047" sideWeight="0.067" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3696581" sideWeight="0.0796875" order="10" side_tool="true" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.34597155" sideWeight="0.933" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3696581" sideWeight="0.9203125" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.12566666" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -429,15 +489,80 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="ruby-line">
+          <url>file://$PROJECT_DIR$/WolfOfWebsiteMain.rb</url>
+          <line>38</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="2" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/spec/tools.rb">
+    <entry file="file://$PROJECT_DIR$/tools.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="10" lean-forward="false" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
+          <folding>
+            <marker date="1499376894208" expanded="true" signature="11:1023" ph=" ... end" />
+            <marker date="1499376894208" expanded="true" signature="36:560" ph=" ... end" />
+            <marker date="1499376894208" expanded="true" signature="578:1019" ph=" ... end" />
+            <marker date="1499376894208" expanded="true" signature="847:898" ph="{ ... }" />
+            <marker date="1499376894208" expanded="true" signature="961:1012" ph="{ ... }" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tickers.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="4" lean-forward="false" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WolfOfWebsiteMain.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1499384964328" expanded="true" signature="1:416" ph="##..." />
+            <marker date="1499384964328" expanded="true" signature="684:737" ph="##..." />
+            <marker date="1499384964328" expanded="true" signature="785:888" ph="while ... end" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stock.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="16" lean-forward="false" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
+          <folding>
+            <marker date="1499381199096" expanded="true" signature="11:1449" ph=" ... end" />
+            <marker date="1499381199096" expanded="true" signature="38:576" ph=" ... end" />
+            <marker date="1499381199096" expanded="true" signature="381:431" ph="{ ... }" />
+            <marker date="1499381199096" expanded="true" signature="633:1204" ph=" ... end" />
+            <marker date="1499381199096" expanded="true" signature="1007:1056" ph="{ ... }" />
+            <marker date="1499381199096" expanded="true" signature="1237:1307" ph=" ... end" />
+            <marker date="1499381199096" expanded="true" signature="1341:1445" ph=" ... end" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tools.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="462">
           <caret line="14" column="10" lean-forward="false" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
-          <folding />
+          <folding>
+            <marker date="1499376894208" expanded="true" signature="11:1023" ph=" ... end" />
+            <marker date="1499376894208" expanded="true" signature="36:560" ph=" ... end" />
+            <marker date="1499376894208" expanded="true" signature="578:1019" ph=" ... end" />
+            <marker date="1499376894208" expanded="true" signature="847:898" ph="{ ... }" />
+            <marker date="1499376894208" expanded="true" signature="961:1012" ph="{ ... }" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -449,11 +574,15 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/WolfOfWebsiteMain">
+    <entry file="file://$PROJECT_DIR$/WolfOfWebsiteMain.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <marker date="1499384964328" expanded="true" signature="1:416" ph="##..." />
+            <marker date="1499384964328" expanded="true" signature="684:737" ph="##..." />
+            <marker date="1499384964328" expanded="true" signature="785:888" ph="while ... end" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -461,31 +590,51 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="132">
           <caret line="4" column="16" lean-forward="false" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
-          <folding />
+          <folding>
+            <marker date="1499381199096" expanded="true" signature="11:1449" ph=" ... end" />
+            <marker date="1499381199096" expanded="true" signature="38:576" ph=" ... end" />
+            <marker date="1499381199096" expanded="true" signature="381:431" ph="{ ... }" />
+            <marker date="1499381199096" expanded="true" signature="633:1204" ph=" ... end" />
+            <marker date="1499381199096" expanded="true" signature="1007:1056" ph="{ ... }" />
+            <marker date="1499381199096" expanded="true" signature="1237:1307" ph=" ... end" />
+            <marker date="1499381199096" expanded="true" signature="1341:1445" ph=" ... end" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/WolfOfWebsiteMain">
+    <entry file="file://$PROJECT_DIR$/WolfOfWebsiteMain.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <marker date="1499384964328" expanded="true" signature="1:416" ph="##..." />
+            <marker date="1499384964328" expanded="true" signature="684:737" ph="##..." />
+            <marker date="1499384964328" expanded="true" signature="785:888" ph="while ... end" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/WolfOfWebsiteMain">
+    <entry file="file://$PROJECT_DIR$/WolfOfWebsiteMain.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <marker date="1499384964328" expanded="true" signature="1:416" ph="##..." />
+            <marker date="1499384964328" expanded="true" signature="684:737" ph="##..." />
+            <marker date="1499384964328" expanded="true" signature="785:888" ph="while ... end" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/WolfOfWebsiteMain">
+    <entry file="file://$PROJECT_DIR$/WolfOfWebsiteMain.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <marker date="1499384964328" expanded="true" signature="1:416" ph="##..." />
+            <marker date="1499384964328" expanded="true" signature="684:737" ph="##..." />
+            <marker date="1499384964328" expanded="true" signature="785:888" ph="while ... end" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -497,11 +646,15 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/WolfOfWebsiteMain">
+    <entry file="file://$PROJECT_DIR$/WolfOfWebsiteMain.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <marker date="1499384964328" expanded="true" signature="1:416" ph="##..." />
+            <marker date="1499384964328" expanded="true" signature="684:737" ph="##..." />
+            <marker date="1499384964328" expanded="true" signature="785:888" ph="while ... end" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -513,11 +666,15 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/WolfOfWebsiteMain">
+    <entry file="file://$PROJECT_DIR$/WolfOfWebsiteMain.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <marker date="1499384964328" expanded="true" signature="1:416" ph="##..." />
+            <marker date="1499384964328" expanded="true" signature="684:737" ph="##..." />
+            <marker date="1499384964328" expanded="true" signature="785:888" ph="while ... end" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -529,11 +686,15 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/WolfOfWebsiteMain">
+    <entry file="file://$PROJECT_DIR$/WolfOfWebsiteMain.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <marker date="1499384964328" expanded="true" signature="1:416" ph="##..." />
+            <marker date="1499384964328" expanded="true" signature="684:737" ph="##..." />
+            <marker date="1499384964328" expanded="true" signature="785:888" ph="while ... end" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -545,11 +706,15 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/WolfOfWebsiteMain">
+    <entry file="file://$PROJECT_DIR$/WolfOfWebsiteMain.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <marker date="1499384964328" expanded="true" signature="1:416" ph="##..." />
+            <marker date="1499384964328" expanded="true" signature="684:737" ph="##..." />
+            <marker date="1499384964328" expanded="true" signature="785:888" ph="while ... end" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -561,11 +726,15 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/WolfOfWebsiteMain">
+    <entry file="file://$PROJECT_DIR$/WolfOfWebsiteMain.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <marker date="1499384964328" expanded="true" signature="1:416" ph="##..." />
+            <marker date="1499384964328" expanded="true" signature="684:737" ph="##..." />
+            <marker date="1499384964328" expanded="true" signature="785:888" ph="while ... end" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -578,13 +747,7 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/trade.rb" />
-    <entry file="file://C:/Ruby23/lib/ruby/site_ruby/2.3.0/rubygems/core_ext/kernel_require.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="386">
-          <caret line="54" column="0" lean-forward="false" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://C:/Ruby23/lib/ruby/site_ruby/2.3.0/rubygems/core_ext/kernel_require.rb" />
     <entry file="file://$PROJECT_DIR$/spec/methods">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1093">
@@ -592,10 +755,43 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/spec/yahoo_stock/quote_spec.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-7662">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Ruby23/lib/ruby/gems/2.3.0/gems/nas-yahoo_stock-1.0.8/lib/yahoo_stock/quote.rb" />
+    <entry file="file://$PROJECT_DIR$/Tickers.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="4" lean-forward="false" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/ticker_prices.csv">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ticker_names">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ruby_stock.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="3" lean-forward="true" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -603,61 +799,141 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1490079200098" expanded="true" signature="23:3066" ph="do ... end" />
+            <marker date="1490079200098" expanded="true" signature="2643:3062" ph="if ... end" />
+            <marker date="1490079200098" expanded="true" signature="2801:3001" ph="if ... end" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spec/yahoo_stock/quote_spec.rb">
+    <entry file="file://$PROJECT_DIR$/prospects_pool.csv">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-7662">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="34">
+          <caret line="2" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algorithm.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="10" lean-forward="false" selection-start-line="16" selection-start-column="10" selection-end-line="16" selection-end-column="10" />
+          <folding>
+            <marker date="1499379344412" expanded="true" signature="15:579" ph=" ... end" />
+            <marker date="1499379344412" expanded="true" signature="179:524" ph=" ... end" />
+            <marker date="1499379344412" expanded="true" signature="383:518" ph="if ... end" />
+            <marker date="1499379344412" expanded="true" signature="556:573" ph=" ... end" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/stock_quote-1.4.0/lib/stock_quote/utility.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="7" lean-forward="false" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+          <folding>
+            <marker date="1499371256935" expanded="true" signature="33:1089" ph=" ... end" />
+            <marker date="1499371256935" expanded="true" signature="84:1085" ph=" ... end" />
+            <marker date="1499371256935" expanded="true" signature="117:163" ph=" ... end" />
+            <marker date="1499371256935" expanded="true" signature="190:227" ph=" ... end" />
+            <marker date="1499371256935" expanded="true" signature="258:467" ph=" ... end" />
+            <marker date="1499371256935" expanded="true" signature="490:560" ph=" ... end" />
+            <marker date="1499371256935" expanded="true" signature="582:775" ph=" ... end" />
+            <marker date="1499371256935" expanded="true" signature="589:767" ph="if ... end" />
+            <marker date="1499371256935" expanded="true" signature="800:1079" ph=" ... end" />
+            <marker date="1499371256935" expanded="true" signature="807:1071" ph="if ... end" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tools.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="35" lean-forward="false" selection-start-line="21" selection-start-column="35" selection-end-line="21" selection-end-column="35" />
+          <folding>
+            <marker date="1499376894208" expanded="true" signature="11:1023" ph=" ... end" />
+            <marker date="1499376894208" expanded="true" signature="36:560" ph=" ... end" />
+            <marker date="1499376894208" expanded="true" signature="578:1019" ph=" ... end" />
+            <marker date="1499376894208" expanded="true" signature="847:898" ph="{ ... }" />
+            <marker date="1499376894208" expanded="true" signature="961:1012" ph="{ ... }" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/stock_quote-1.4.0/lib/stock_quote/stock.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="494">
+          <caret line="157" column="0" lean-forward="true" selection-start-line="157" selection-start-column="0" selection-end-line="157" selection-end-column="0" />
+          <folding>
+            <marker date="1499371256909" expanded="true" signature="117:6979" ph=" ... end" />
+            <marker date="1499371256909" expanded="true" signature="120:230" ph="##..." />
+            <marker date="1499371256909" expanded="true" signature="258:825" ph=" ... end" />
+            <marker date="1499371256909" expanded="true" signature="340:733" ph=" ... end" />
+            <marker date="1499371256909" expanded="true" signature="347:725" ph="if ... end" />
+            <marker date="1499371256909" expanded="true" signature="750:760" ph=" ... end" />
+            <marker date="1499371256909" expanded="true" signature="777:788" ph=" ... end" />
+            <marker date="1499371256909" expanded="true" signature="810:819" ph=" ... end" />
+            <marker date="1499371256909" expanded="true" signature="829:903" ph="##..." />
+            <marker date="1499371256909" expanded="true" signature="917:6975" ph=" ... end" />
+            <marker date="1499371256909" expanded="true" signature="2424:2575" ph="do ... end" />
+            <marker date="1499371256909" expanded="true" signature="2954:2975" ph=" ... end" />
+            <marker date="1499371256909" expanded="true" signature="3001:3684" ph=" ... end" />
+            <marker date="1499371256909" expanded="true" signature="3008:3676" ph="if ... end" />
+            <marker date="1499371256909" expanded="true" signature="3354:3397" ph="{ ... }" />
+            <marker date="1499371256909" expanded="true" signature="3558:3666" ph="do ... end" />
+            <marker date="1499371256909" expanded="true" signature="3702:3839" ph=" ... end" />
+            <marker date="1499371256909" expanded="true" signature="3857:3994" ph=" ... end" />
+            <marker date="1499371256909" expanded="true" signature="4091:4923" ph=" ... end" />
+            <marker date="1499371256909" expanded="true" signature="4194:4524" ph="if ... end" />
+            <marker date="1499371256909" expanded="true" signature="4719:4915" ph="do ... end" />
+            <marker date="1499371256909" expanded="true" signature="4741:4905" ph="if ... end" />
+            <marker date="1499371256909" expanded="true" signature="5021:5087" ph=" ... end" />
+            <marker date="1499371256909" expanded="true" signature="5123:5361" ph=" ... end" />
+            <marker date="1499371256909" expanded="true" signature="5276:5304" ph="{ ... }" />
+            <marker date="1499371256909" expanded="true" signature="5459:6043" ph=" ... end" />
+            <marker date="1499371256909" expanded="true" signature="5619:5900" ph="begin ... end" />
+            <marker date="1499371256909" expanded="true" signature="5766:5869" ph="if ... end" />
+            <marker date="1499371256909" expanded="true" signature="6096:6573" ph=" ... end" />
+            <marker date="1499371256909" expanded="true" signature="6391:6550" ph="do ... end" />
+            <marker date="1499371256909" expanded="true" signature="6688:6785" ph=" ... end" />
+            <marker date="1499371256909" expanded="true" signature="6901:6969" ph=" ... end" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/stock.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="4" column="16" lean-forward="false" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
-          <folding />
+        <state relative-caret-position="372">
+          <caret line="41" column="16" lean-forward="true" selection-start-line="41" selection-start-column="16" selection-end-line="41" selection-end-column="16" />
+          <folding>
+            <marker date="1499381199096" expanded="true" signature="11:1449" ph=" ... end" />
+            <marker date="1499381199096" expanded="true" signature="38:576" ph=" ... end" />
+            <marker date="1499381199096" expanded="true" signature="381:431" ph="{ ... }" />
+            <marker date="1499381199096" expanded="true" signature="633:1204" ph=" ... end" />
+            <marker date="1499381199096" expanded="true" signature="1007:1056" ph="{ ... }" />
+            <marker date="1499381199096" expanded="true" signature="1237:1307" ph=" ... end" />
+            <marker date="1499381199096" expanded="true" signature="1341:1445" ph=" ... end" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spec/tools.rb">
+    <entry file="file://$PROJECT_DIR$/WolfOfWebsiteMain.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="14" column="10" lean-forward="false" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
-          <folding />
+        <state relative-caret-position="680">
+          <caret line="40" column="4" lean-forward="false" selection-start-line="40" selection-start-column="4" selection-end-line="40" selection-end-column="4" />
+          <folding>
+            <marker date="1499384964328" expanded="true" signature="1:416" ph="##..." />
+            <marker date="1499384964328" expanded="true" signature="684:737" ph="##..." />
+            <marker date="1499384964328" expanded="true" signature="785:888" ph="while ... end" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Tickers.csv">
+    <entry file="file://$PROJECT_DIR$/performance_history.csv">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="33">
-          <caret line="1" column="4" lean-forward="false" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/Ruby23/lib/ruby/gems/2.3.0/gems/nas-yahoo_stock-1.0.8/lib/yahoo_stock/quote.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="348">
-          <caret line="68" column="0" lean-forward="false" selection-start-line="68" selection-start-column="0" selection-end-line="68" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ruby_stock.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="7" column="3" lean-forward="true" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WolfOfWebsiteMain">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1281">
-          <caret line="40" column="0" lean-forward="true" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
+        <state relative-caret-position="34">
+          <caret line="2" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
           <folding />
         </state>
       </provider>
