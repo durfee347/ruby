@@ -32,11 +32,13 @@ ignition = Tools. new
 
 ticker_list = CSV.read('Tickers.csv')
 
+ticker_list[0] = 'AAPL'
 
 x = 0
 while x < 2
-  stock = StockQuote::Stock.quote('AAPL')
-  current_price = stock.check_price('AAPL')
+  stock = StockQuote::Stock.quote(ticker_list[x])
+  current_price = stock.check_price(ticker_list[x])
+  decision = stock.decide_sell(current_price, original_purchase_price, stock_ticker, sell_price_upper, sell_price_lower, profit_margin, position_total_usd, roi_loss_percentage)
 
 
 end

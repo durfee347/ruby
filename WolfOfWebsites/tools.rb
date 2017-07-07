@@ -24,6 +24,19 @@ class Tools
     # loop through each record in CSV and add to ticker_labels array
     f.each_line {|line|
       ticker_labels = line.split(',')
+      #file read tickers.csv into one string
+      #line.split \n
+
+      #to make array to csv:
+      #array.join(',')
+      #for table: array[][] for each i in array[], join on comma
+      #and then youll have a big string in each row, for each row in array, join on \n
+      #[3][2][5]
+      #[2][5][6]
+      #[3,2,5],[2,5,6]
+      #join that on .join('\n')
+      #'3,2,5\n2,5,6'
+
     }
 
     h = File.open('ticker_prices.csv', 'r')
